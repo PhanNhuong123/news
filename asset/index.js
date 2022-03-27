@@ -1,6 +1,6 @@
 $(document).ready(function () {
   var postAPI = "https://gnews.io/api/v4/top-headlines?&";
-  tokenAPI = "&token=f49ff9affe9696914834e64dc9cd0274";
+  tokenAPI = "&token=027f9bba389a6e2b48bc6461c6492afd";
   postAPI += tokenAPI;
   getAPI(postAPI);
 
